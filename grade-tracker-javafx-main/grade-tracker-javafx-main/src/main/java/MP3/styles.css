@@ -1,0 +1,19 @@
+.root {
+	-fx-background: #212121;
+}
+
+.my-text {
+	-fx-font-size: 1.5em bold;
+	-fx-color: #ffffff;
+}
+
+.my-text-field {
+	-fx-width: 800px;
+	-fx-padding: 5px;
+}
+
+.button {
+	-fx-border-radius: 50;
+	-fx-background-color: #ffffff;
+	-fx-border: none;
+}

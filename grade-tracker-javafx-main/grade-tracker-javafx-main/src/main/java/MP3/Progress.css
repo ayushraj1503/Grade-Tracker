@@ -1,0 +1,30 @@
+#listView {
+	-fx-height: 100%;
+}
+
+#studentName {
+	-fx-font-weight: bold;
+	-fx-font-size: 2em;
+	-fx-padding: 20px 0px;
+}
+
+.gray {
+	-fx-text-fill: gray;
+}
+
+#studentDetailsVBox {
+	-fx-padding: 0px 20px;
+}
+
+#currentClass {
+	-fx-padding: 40px 0 0 0;
+	-fx-font-weight: bold;
+	-fx-font-size: 1.5em;
+}
+
+#studentAssignmentsVBox {
+	-fx-padding: 0px 20px;
+	-fx-border-color: #000000;
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+}

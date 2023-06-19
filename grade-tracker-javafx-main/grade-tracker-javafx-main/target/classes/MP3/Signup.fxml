@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<GridPane fx:controller="MP3.SignupController" 
+    xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+    styleClass="root">
+    <!-- <padding><Insets top="25" right="25" bottom="25" left="25"/></padding> -->
+    
+    <!-- Title -->
+    <Text fx:id="title" text="Sign Up" 
+        GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+ 
+    <!-- Labels and TextFields -->
+    <Label text="First Name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+ 
+    <TextField fx:id="firstNameField"
+        GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+    <Label text="Middle Name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+ 
+    <TextField fx:id="middleNameField"
+        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+    <Label text="Last Name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+ 
+    <TextField fx:id="lastNameField"
+        GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+ 
+    <Label text="Gender:"
+        GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+
+    <TextField fx:id="genderField"
+        GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+    <Label text="Birthday:"
+        GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+
+    <TextField fx:id="birthdayField"
+        GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+
+    <Label text="Address:"
+        GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+
+    <TextField fx:id="addressField"
+        GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    
+    <Label text="Phone Number:"
+        GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+
+    <TextField fx:id="phoneNumberField"
+        GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+    
+    <Label text="Email:"
+        GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+
+    <TextField fx:id="emailField"
+        GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+
+    <Label text="Password:"
+        GridPane.columnIndex="0" GridPane.rowIndex="9"/>
+ 
+    <PasswordField fx:id="passwordField" 
+        GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+    
+    <!-- Button -->
+    <HBox spacing="20" alignment="bottom_right" 
+        GridPane.columnIndex="1" GridPane.rowIndex="10">
+        <Button text="Go To Log In Page" fx:id="logInBtn"
+            onAction="#handleLogInBtn"/>
+
+        <Button text="Sign Up" fx:id="signUpBtn"   
+            onAction="#handleSignUpBtn"/>
+    </HBox>
+
+    <!-- Feedback -->
+    <Text fx:id="actionText"
+        GridPane.columnIndex="1" GridPane.rowIndex="11"/>
+        
+    <!-- Stylesheets -->
+    <stylesheets>
+      <URL value="@Signup.css" />
+    </stylesheets>
+
+</GridPane>
